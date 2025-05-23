@@ -124,7 +124,9 @@ class Result {
         if (inputMatrix == null) {
             throw new IllegalArgumentException();
         }
-        List<List<Integer>> newMatrix = inputMatrix.stream().map(ArrayList::new).collect(Collectors.toList());
+        List<List<Integer>> newMatrix = inputMatrix.stream().
+                map(ArrayList::new).
+                collect(Collectors.toList());
 
         int row = inputMatrix.size();
         if (row == 0) {
