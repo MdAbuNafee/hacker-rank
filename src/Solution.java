@@ -163,7 +163,6 @@ class Result {
             System.out.println();
         }
     }
-
 }
 
 
